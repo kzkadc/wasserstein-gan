@@ -2,13 +2,20 @@
 [Arjovsky, Martin, Soumith Chintala, and Léon Bottou. "Wasserstein generative adversarial networks." International Conference on Machine Learning. 2017.](http://proceedings.mlr.press/v70/arjovsky17a.html)  
 [Gulrajani, Ishaan, et al. "Improved training of wasserstein gans." Advances in Neural Information Processing Systems. 2017.](http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans)
  
-Implemented with [Chainer](https://chainer.org)
+Implemented with Chainer and PyTorch.
 
-## Requirements
+## Requirements (Chainer)
 Chainer, OpenCV
 
 ```bash
 $ pip install chainer opencv-python
+```
+
+## Requirements (PyTorch)
+PyTorch (see [the official document](https://pytorch.org/get-started/locally/)), PyTorch-Ignite, OpenCV, Matplotlib
+
+```bash
+$ pip install pytorch-ignite opencv-python matplotlib
 ```
 
 ## How to run
